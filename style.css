@@ -1,0 +1,63 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .box {
+    width: 60px;
+    height: 58px;
+    background-color: #ffffff;
+    border: 2px solid #d3d6da;
+    margin: 2px;
+  }
+  .board{
+    width: 350px; 
+    height: 420px; 
+    margin: 0 auto;
+    padding-top: 5%;
+}
+  .keyboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 3%;
+    align-items: center;
+    max-width: 1000px;
+
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .key {
+    /* height: 50px;
+    width: 70px; */
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #D3D6DA;
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+    margin: 4px;
+    border: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-family: "NYT Franklin", sans-serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .enter {
+    vertical-align: middle;
+  }
+  .bottom {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1000px;
+  }
